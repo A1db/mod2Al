@@ -1,0 +1,14 @@
+p {
+    color: bisque;
+    size: 10px;
+}
+.highlight {
+    background-color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font: italic;
+}
+#diva {
+    color: magenta;
+    size: 30px;
+    font: bold, italic;
+}
