@@ -1,14 +1,36 @@
-p {
-    color: bisque;
-    size: 10px;
+header { /* меняем стиль заголовков */
+    color: cyan;
 }
-.highlight {
-    background-color: gold;
-    font-family: 'Times New Roman', Times, serif;
-    font: italic;
+
+p { /* стиль абзацев */
+    font-size: 25px;
 }
-#diva {
-    color: magenta;
-    size: 30px;
-    font: bold, italic;
+
+.center { /* class="center" */
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fontChange {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#img { /* id="img" */
+    background-image: url("sillycat.jpg");
+}
+
+#clr {
+    background-color: firebrick;
+}
+
+div { /* div стиль */
+    padding: 3px;
+    margin: auto;
+    border: 10px;
+    width: 600px;
+    height: 600px;
+    overflow: visible;
 }
