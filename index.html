@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My File</title>
+</head>
+<body>
+  <fieldset> <!-- Создаем поле -->
+    <legend>Form</legend> <!-- Называем его -->
+    
+    <form action="/submit" method="post"> <!-- Создаем форму методом пост -->
+        
+      <label for="name">Name:</label> <!-- Поле имени -->
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email:</label> <!-- Поле эл. почты с тайпом почты -->
+      <input type="email" name="email" id="email" required>
+
+      <label for="passsword">Password:</label> <!-- Поле пароля с тайпом пароль -->
+      <input type="password" name="password" id="password" required>
+
+      <label for="comment">Comments:</label> <!-- Поле коммента через текстареа -->
+      <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+    
+      <label for="teach">Your position:</label> <!-- Выбор позиции -->
+      <select id="teach" name="teach" required>
+        <option value="">Select your position</option>
+        <option value="st">Student</option>
+        <option value="th">Teacher</option>
+        <option value="og">Organizer</option>
+        <option value="sa">Salidat</option>
+      </select>
+    
+      <button type="submit">Submit</button> <input type="reset" value="Reset"> <!-- Кнопки отправки и сброса формы -->
+    </form>
+  </fieldset>
+</body>
+</html>
